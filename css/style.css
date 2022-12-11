@@ -817,19 +817,27 @@ footer {
 	margin-bottom: 10px;
 }
 
+.modal-box:nth-child(4) {
+	margin-bottom: 20px;
+}
+
 .modal-box label {
 	display: block;
 	font-size: 12px;
 	margin-bottom: 4px;
+	line-height: 1.167;
 }
 
 .modal-text {
+	display: block;
 	width: 100%;
 	min-height: 120px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 	padding: 16px 12px;
 	resize: none;
+
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text::placeholder {
@@ -896,17 +904,15 @@ label.label-contract {
 	color: var(--focus-color);
 }
 
-.submit-btn {
-	text-align: center;
-}
 
 .modal-form-btn {
+	display: block;
 	padding: 10px 52px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.8;
 	letter-spacing: 0.06em;
-	margin: 0 auto;
+	margin: auto;
 
 	border-radius: 4px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
