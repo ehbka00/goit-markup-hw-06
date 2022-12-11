@@ -875,12 +875,12 @@ label.label-contract {
 }
 
 .modal-contract:checked+label::before {
-	border: none;
-	width: 16px;
-	height: 15px;
 	background-image: url('../image/icon/check.svg');
 	background-repeat: no-repeat;
+	background-size: contain;
+	background-origin: border-box;
 	background-position: center;
+	border-color: var(--focus-color);
 	background-color: var(--focus-color);
 }
 
